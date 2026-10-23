@@ -46,9 +46,15 @@ Include the following columns in the spreadsheet:
 - **Red Team Comments**: Blank column dedicated to Red Team reviewers (focusing on compliance, technical depth, win themes, and scoring against Section M).
 - **Gold Team Comments**: Blank column dedicated to Gold Team reviewers (focusing on final executive sign-off, pricing alignment, and strategic polish).
 
-### 4. Deliver the Spreadsheet Output
+### 4. Validate spreadsheet against RFP data
+- Revisit the RFP material and validate that the spreadsheet contains:
+  - All the necessary requirements from the RFP documents
+  - No requirements that do not exist in the documents (clean up hallucinations)
+
+### 5. Deliver the Spreadsheet Output
 - If creating a Google Sheet using workspace tools, format it as clean CSV data with all fields properly escaped.
-- If generating a downloadable file (`.xlsx` or `.csv`) or Markdown preview, ensure all columns are present and grouped strictly by `Compliance`, `Cost`, and `Material`.
+- If creating a Google Sheet using workspace tools, format the document for easy reading and group rows strictly by `Compliance`, `Cost`, `Material`, and `Other`.
+- If generating a downloadable file (`.xlsx` or `.csv`) or Markdown preview, ensure all columns are present and grouped strictly by `Compliance`, `Cost`,`Material`, and `Other`.
 - Alongside the spreadsheet, provide a brief executive summary highlighting any "killer" compliance traps (e.g., strict page limits, unusual font rules on graphics/tables) and top evaluation discriminators discovered during the shred.
 
 ## Gotchas
