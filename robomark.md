@@ -18,7 +18,11 @@ Extract, categorize, and structure all explicit and implicit requirements from G
 Identify all solicitation documents provided in the conversation or located in the user's workspace. If multiple documents are involved (e.g., Main Solicitation, PWS/SOW, Q&A Amendments, Pricing Attachments), inventory them so you can accurately cite which document and section each requirement originates from.
 
 ### 2. Perform Deep Requirements Shredding
-Scan the documents systematically for mandatory directives ("shall", "must", "will", "is required to") as well as evaluation-critical directives ("should", "may", "evaluated on", "demonstrate"). If the RFP documents contain multiple "topic areas" or "focus areas" where we may bid against only one, some, or all, please stop and ask the user which topic or focus area(s) the user plans to bid on before continuing. Disregard instructions that are exclusively for topic or focus areas not selected by the user. 
+Scan the documents systematically for mandatory directives ("shall", "must", "will", "is required to") as well as evaluation-critical directives ("should", "may", "evaluated on", "demonstrate"). Make sure each identified requirement matches 
+
+Requirements should be fine-grained. For example, if there is a prescribed statement of work outline format in the RFP, there should be a single requirement for each section of the SOW outline format from the RFP - **not** a single requirement for a SOW in the proposal.
+
+If the RFP documents contain multiple "topic areas", "focus areas", or "areas of interest" where we may bid against only one, some, or all areas, please stop and ask the user which topic or focus area(s) the user plans to bid on before continuing. Disregard instructions that are exclusively for topic or focus areas not selected by the user.
 
 Categorize every extracted item into one of three required groups:
 
@@ -40,7 +44,7 @@ Include the following columns in the spreadsheet:
 - **Category**: `Compliance`, `Cost`, or `Material`.
 - **RFP Document & Section**: Exact document name, section number, paragraph, or page reference (e.g., `Section L.4.2, p. 42` or `PWS 3.1.2`).
 - **Requirement & What to Demonstrate**: Clear statement of the requirement, including specific instructions on what the proposal must demonstrate to be fully responsive and high-scoring.
-- **Key Phrases / Terms to Incorporate**: Exact terminology, acronyms, or phrases from the RFP to echo in the response.
+- **Key Phrases / Terms to Incorporate**: Exact terminology, acronyms, or phrases from the RFP to echo in the response (if any)
 - **Proposal Volume / Section Mapping**: Placeholder column for the team to map where this requirement is addressed in the response.
 - **Compliance Status**: Placeholder for tracking (e.g., `Not Started / In Progress / Compliant`).
 - **Red Team Comments**: Blank column dedicated to Red Team reviewers (focusing on compliance, technical depth, win themes, and scoring against Section M).
@@ -49,6 +53,8 @@ Include the following columns in the spreadsheet:
 ### 4. Validate spreadsheet against RFP data
 - Revisit the RFP material and validate that the spreadsheet contains:
   - All the necessary requirements from the RFP documents
+  - Each requirement listed should contain one logical task that can be identified as complete or not- multiple logically individual requirements should be listed individually.
+  - Each requirement should be listed only once within the spreadsheet.
   - No requirements that do not exist in the documents (clean up hallucinations)
 
 ### 5. Deliver the Spreadsheet Output
