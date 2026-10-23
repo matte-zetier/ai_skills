@@ -15,7 +15,7 @@ Extract, categorize, and structure all explicit and implicit requirements from G
 ## Steps
 
 ### 1. Gather and Inventory RFP Documents
-Identify all solicitation documents provided in the conversation or located in the user's workspace. If multiple documents are involved (e.g., Main Solicitation, PWS/SOW, Q&A Amendments, Pricing Attachments), inventory them so you can accurately cite which document and section each requirement originates from.
+Identify all solicitation documents provided in the conversation or located in the user's workspace. If multiple documents are involved (e.g., Main Solicitation, PWS/SOW, Q&A Amendments, Pricing Attachments), inventory them so you can accurately cite which document and section each requirement originates from. Only collect documents in the "01 - received from customer" folder for the effort, **do not** collect files elsewhere across Drive for the shred. If  you cannot find an "01 - received from customer" folder for the name of the solicitation, stop and ask the user for clarification before continuing.
 
 ### 2. Perform Deep Requirements Shredding
 Scan the documents systematically for mandatory directives ("shall", "must", "will", "is required to") as well as evaluation-critical directives ("should", "may", "evaluated on", "demonstrate"). Make sure each identified requirement matches 
